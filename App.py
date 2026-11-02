@@ -30,7 +30,7 @@ if st.button("Predict Survival", type="primary"):
     is_adult_male = 1 if (is_male and age >= 16) else 0
 
     input_data = {
-        'pclass': pclass,
+        'Pclass': pclass,
         'age': age,
         'sibsp': sibsp,
         'parch': parch,
